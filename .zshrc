@@ -25,3 +25,4 @@ source $ZSH/oh-my-zsh.sh
 alias gs="git status"
 alias gadd="git add ."
 alias gpmain="git push origin main"
+alias c.="code ."
