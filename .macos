@@ -1,0 +1,8 @@
+# do not display recent apps in the dock
+defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
+
+# set screenshots locations
+defaults write com.apple.screencapture "location" -string "~/Pictures" && killall SystemUIServer
+
+# disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
